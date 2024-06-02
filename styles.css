@@ -1,0 +1,467 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #fbfbfb;
+    scroll-behavior: smooth;
+}
+
+nav {
+    max-width: 1200px;
+    height: 60px;
+    margin: 32px auto;
+}
+
+nav header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav header .nav-items {
+    display: flex;
+    justify-content: space-between;
+    max-width: 540px;
+    height: 35px;
+    gap: 30px;
+}
+
+nav header ul {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+nav header ul li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+nav header ul li:hover, main{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+nav header ul #item1 {
+    color: #ff5555;
+    font-weight: 700;
+}
+
+nav header .btn-download {
+    padding: 18px 60px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 40px;
+    transition: all 0.3s ease;
+}
+
+.content .content1 .buttons #btn1{
+    transition: all 0.3s ease;
+}
+
+nav header .btn-download:hover, .content .content1 .buttons #btn1:hover{
+    background-color: rgb(37, 35, 35);
+    cursor: pointer;
+}
+
+#star1{
+    margin-left: 15px;
+}
+
+main{
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+}
+main .content .content1{
+    max-width: 620px;
+    min-height: 750px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main .content .content1 #bg{
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 70px;
+}
+main .content .content1 h1{
+    position: relative;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+main .content .content1 p{
+    position: relative;
+    color: #504f4f;
+}
+
+main .content .content1 .buttons{
+    display: flex;
+    gap: 24px;
+}
+
+main .content .content1 .buttons .btn{
+    padding: 18px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+main .content .content1 .buttons #btn2{
+    background-color: transparent;
+    color: black;
+    outline: none;
+    border: none;
+}
+
+main .content .content1 .buttons #btn1 img{
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+main .content .content1 .buttons #btn2 img{
+    vertical-align: bottom;
+    margin-left: 5px;
+}
+
+main .content .content1 .content1-img{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+main .content .content1 .content1-img #star2{
+    margin-top: 50px;
+    margin-left: 100px;
+    grid-area: 1/1;
+}
+
+main .content .content1 .content1-img #zig-zag{
+    grid-area: 1/1;
+}
+main .content-img{
+    max-width: 460px;
+    margin-top: -20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+main .content-img #rare{
+    margin-top: -30px;
+    margin-left: 50px;
+    width: 600px;
+    grid-area: 1 / 1;
+}
+
+main .content-img #middle{
+    grid-area: 1 / 1;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+main .content-img #front{
+    grid-area: 1 / 1;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+section{
+    max-width: 1200px;
+    height: 540px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+
+}
+.img-1{
+    width: 600px;
+    height: 470px;
+}
+.img-1 img{
+    height: 590px;
+    width: 570px;
+    margin-top: -30px;
+    position: absolute;
+}
+.img-1 .back-1 img{
+    height: 400px;
+    width: 400px;
+    margin: 2px 0px 0px 30px;
+}
+
+.img-1 .back-2 img{
+    height: 400px;
+    width: 400px;
+    margin: 90px 0px 0px 40px;
+}
+
+.content{
+    width: 600px;
+    height: 470px;
+    margin-left: 20px;
+}
+.content-2{
+    width: 450px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.content-3{
+    width: 450px;
+    margin-right: 80px;
+    margin-top: 160px;
+}
+.content-4{
+    width: 350px;
+    margin-right: 160px;
+    margin-top: 140px;
+}
+.content h4{
+    display: inline-block;
+    margin: 8px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1400;
+}
+.content .back{
+    margin-top: 8px;
+    height: 17px;
+    width: 17px;
+    vertical-align: top;
+}
+.content .head{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #ff5555;
+    margin-top: 70px;
+}
+h1{
+    font-size: 48px;
+    margin: 0px;
+    margin-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content p {
+    margin-top: 4px;
+    margin-bottom: 24px;
+    position: relative;
+    color: #504f4f;
+    margin-left: 5px;
+}
+.content .back-img .back{
+    height: 300px;
+    width: 300px;
+    margin-left: 290px;
+    position: absolute;
+    
+}
+.content .para-1 img{
+    vertical-align: text-bottom;
+}
+.content-2 .para-1 img{
+  height: 27px;
+  width: 27px;
+  margin-top: 10px;
+  vertical-align: -7px;
+}
+.content-3 .para-1 img{
+    height: 27px;
+    width: 27px;
+    margin-top: 10px;
+    vertical-align: -7px;
+  }
+.content-3 .para-1 img{
+    height: 27px;
+    width: 27px;
+  }
+.content-2 .para-1 h4{
+    font-size: 18px;
+}
+.content-3 .para-1 h4{
+    font-size: 18px;
+}
+.content-2 p, .content-3 p{
+    margin-top: 10px;
+}
+.heading{
+    width: 400px;
+    height: 130px;
+    margin: 0px 530px;
+    
+}
+.heading h3{
+    margin:  0px 0px 0px 90px;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+.img-1 .back-3 img{
+    transform: rotate(180deg);
+    margin: 90px 0px 0px 50px;
+}
+.content-4 .para-1 img {
+    height: 35px;
+    width: 160px;
+    margin-left: 5px;
+}
+.content-4 .para-1 h5{
+    margin-left: 5px;
+}
+.content-4 .para-1 h4{
+    width: 250px;
+}
+
+.faq{
+    margin-top: 80px;
+    margin-left: 190px;
+}
+.faq h6{
+    margin: 0px;
+    margin-left: 5px;
+    letter-spacing: 1px;
+    color: #ff5555;
+}
+.faq h1{
+    width: 550px;
+}
+.content-5{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    /* border: 1px solid; */
+    margin: 5px auto;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.content-5 .para{
+    width: 440px;
+    height: 140px;
+    /* border: 1px solid; */
+    border-radius: 8px;
+    margin-top: 2px;
+}
+.content-5 .para h4{
+    width: 250px;
+}
+.content-5 #para-1, #para-4, #para-5{
+    background-color: #ff5555;
+    color: white;
+}
+.content-5 #para-1 p, #para-4 p, #para-5  p{
+    color: white;
+}
+.img-1 .back-4 img{
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -50px;
+}
+.img-content img{
+    height: 460px;
+    width: 960px;
+    margin-top: 90px;
+    margin-left: 120px;
+}
+
+footer{
+    margin-top: 60px;
+}
+
+main .content-img #bg2{
+    margin-top: 400px;
+    margin-left: 70px;
+    grid-area: 1 / 1;
+}
+.main{
+    max-width: 1200px;
+    height: 350px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.main ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.main ul li{
+    list-style: none;
+    display: inline-block;
+    margin:16px 10px 0px 12px;
+}
+.main ul .headings{
+    font-size: 28px;
+    font-weight: 600;
+}
+.main ul #bookings{
+    margin-top: -18px;
+    grid-area: 4/2 ;
+} 
+
+.main ul #cookie{
+    margin-top: -18px;
+    grid-area: 4/3 ;
+}
+.main ul #reviews{
+    margin-top: -18px;
+    grid-area: 4/4 ;
+}
+.main ul #blog{
+    grid-area: 5/2 ;
+}
+
+.main p{
+    text-align: center;
+}
+
+.main ul #inputfield{
+    grid-area:3/5 , 4/5;
+}
+.main ul #inputfield form input{
+    padding: 14px 10px;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+}
+.main ul #inputfield form #btn{
+    margin-left: -4px;
+    padding: 14px 10px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+.main hr{
+    border: 0px;
+    height: 1px;
+    background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,0.75),rgba(0,0,0,0));
+}
+
+.main ul li i{
+    color: #ff5555;
+    transition: all 0.6s ease;
+}
+
+.main ul li:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(51, 50, 50);
+}
